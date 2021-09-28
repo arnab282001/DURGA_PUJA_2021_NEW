@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        border-bottom: 2px black;
+    }
+    .crumbs ol{
+        list-style:none;
+        padding left: 0;
+    }
+    .crumb{
+        display: inline-block;
+
+    }
+    .crumb a::after{
+        display: inline-block;
+        color: cornflowerblue;
+        content: '>';
+        font-size: medium;
+
+    }
+
+
+</style>
+<body>
+    <nav class="crumbs">
+<ol>
+    <li class="crumb"><a href="#">BIKES</a></li>
+    <li class="crumb"><a href="#">BOOKS</a></li>
+    <li class="crumb">DUKE</li>
+</ol>
+
+    </nav>
+    
+</body>
+</html>
